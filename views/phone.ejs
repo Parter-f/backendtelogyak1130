@@ -5,6 +5,16 @@
     <title>App</title>
   </head>
   <body>
-        <div style="border-radius: 5px; border: 5px solid <%= color%>;"></div>
+        <div style="width: 500px; height: 900px ; margin:0 auto ; border-radius: 5px; border: 5px solid <%= color%>;">
+        <progress style="width: 200px ;margin:0 auto" ; value="<%= power %>" max="100" ><%= power %></progress> <br>
+        <div style="width: 50px ;margin:0 auto">
+          <%= name %> <br>
+          <%= type %> <br>
+          <%= cost %> <br>
+          <%= state %> <br>
+        </div>
+
+        </div>
+
   </body>
 </html>
